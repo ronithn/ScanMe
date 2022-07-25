@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
     <title>Take a break</title>
 <style>
 body{background-color: white;}	
@@ -21,7 +25,7 @@ h1{
   color:black;
   font-family: 'Poppins', sans-serif;
   text-align:center;
-  font-size: 28px;
+  font-size: 24px;
   letter-spacing: -0.2px;
   }
 
@@ -53,12 +57,30 @@ button{
 .imageCont img{
   width:100%;
 }
+.imageCon img{
+  width: 100%;
+  display: flex; 
+justify-content: center; 
+align-items: center;
+}
 p{
-  color: #a1a1a1;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  text-align: center;
+  color: #000000;
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+  text-align: center;   
+  letter-spacing: 0.5px;
+  line-height: 40px;
+  font-weight: 800;
+  position: relative;
+}
 
+#sti{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 28px;
+  font-size: 22px;
+  text-align: center;
 }
 </style>
   </head>
@@ -66,10 +88,16 @@ p{
   <body >
     <div class="imageCont">
 	<img src= "https://i.imgur.com/1GRjiCP.png" >
-  <div class="imageCont">
-  <h1 text-align:center>Your Kitkat is on it's way</h1>
-  <p >You can even meet me near the stickies</p>
+  <div class="imageCon">
+  <h1 text-align:center style="
+  margin-bottom: 4px;
+" >Your Kitkat is on it's way</h1>
+  <p style="
+  margin-top: 0px;
+  margin-bottom: -66px;
+">YOU CAN MEET ME <br> NEAR THE STICKIES <br> </p>
     <br>
+    <img src= "https://i.imgur.com/Ya2bnGd.gif" >
 
 <!--   <script src="bundle.js"></script>
  -->  </body>
